@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap');
+
+*{
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: darkturquoise;
+}
+
+#counter{
+    background-color: crimson;
+    padding: 4rem;
+    border-radius: 15px;
+}
+
+#value{
+    font-size: 10rem;
+    color: cornflowerblue;
+    min-width: 16rem;
+    text-align: center;
+}
+
+
+button{
+    border: none;
+    border-radius: 6px;
+    color: darkslategrey;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity .4s;
+}
+
+
+button:hover{
+    opacity: .9;
+}
+
+.count-button{
+    width: 10rem;
+    height: 10rem;
+    font-size: 5rem;
+    background-color: cornsilk;
+    margin-right: 2rem;
+}
+
+#counter div{
+    display: flex;
+    align-items: center;
+}
+
+.count-button:last-child{
+    margin-right: 0rem;
+    margin-left: 2rem;
+}
+
+#reset{
+    width: 100%;
+    font-size: 2.5rem;
+    background-color: lawngreen;
+    padding: 2.3rem 0;
+    margin-top: 3rem;
+}
